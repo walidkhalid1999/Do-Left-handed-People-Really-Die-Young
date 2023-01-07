@@ -145,19 +145,19 @@ average_lh_age =  np.nansum(ages*np.array(left_handed_probability))
 average_rh_age =  np.nansum(ages*np.array(right_handed_probability))
 
 # print the average ages for each group
-# print(round(average_lh_age,1))
-# print(round(average_rh_age,1))
+print(round(average_lh_age,1))
+print(round(average_rh_age,1))
 
 # print the difference between the average ages
-# print("The difference in average ages is " + str(round(average_rh_age - average_lh_age, 1)) + " years.")
+print("The difference in average ages is " + str(round(average_rh_age - average_lh_age, 1)) + " years.")
 
 #-----------------------------------------------------------------------------------------------
 # [10] Redo the calculation from Task 8, setting the study_year parameter to 2018.
 #-----------------------------------------------------------------------------------------------
 
 # loop through ages, calculating the probability of being left- or right-handed
-left_handed_probability_2018 = P_A_given_lh(ages, death_distribution_data, study_year = 2005)
-right_handed_probability_2018 = P_A_given_rh(ages, death_distribution_data, study_year = 2005)
+left_handed_probability_2018 = P_A_given_lh(ages, death_distribution_data, study_year = 2018)
+right_handed_probability_2018 = P_A_given_rh(ages, death_distribution_data, study_year = 2018)
     
 # calculate average ages for left-handed and right-handed groups
 average_lh_age_2018 =  np.nansum(ages*np.array(left_handed_probability_2018))

@@ -6,3 +6,15 @@
 
 ## Used technology 
 > Python
+
+>Pandas.
+
+>Matplotlib.
+
+>Data Visualization.
+
+>Probability and statistics.
+
+>Importing and cleaning.
+
+>Jupyter Notebook.
